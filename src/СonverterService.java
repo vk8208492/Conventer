@@ -4,7 +4,10 @@ public class СonverterService {
 
     public double convertKmToMiles(double km) {
         return km / KM_IN_MILE;
-
     }
+    public double convertMileToKm(double mile){
+        return mile*KM_IN_MILE;
+    }
+
 }
 
